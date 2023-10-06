@@ -6,31 +6,31 @@ if (!(day >= 1 && day <= 31 && month >= 1 && month <= 12)) {
 	console.log("Invalid month or day. Please enter valid values.");
 } else {
 	if ((month > 2) && (month <= 5)) {
-			console.log(`The season for ${month}/${day} is Spring1.`);
+			console.log(`The season for ${month}/${day} is Spring.`);
 	} else if (month === 2){
         if (day <= 20) {
-        console.log(`The season for ${month}/${day} is Winter2`)
+        console.log(`The season for ${month}/${day} is Winter`)
         } else {
-        console.log(`The season for ${month}/${day} is Spring2.`);
+        console.log(`The season for ${month}/${day} is Spring.`);
         }
     } else if ((month >= 6) && (month < 9 )) {
-            console.log(`The season for ${month}/${day} is Summer1`)
+            console.log(`The season for ${month}/${day} is Summer`)
     } else if (month === 9){
             if (day <= 21) {
-            console.log(`The season for ${month}/${day} is Summer2`)
+            console.log(`The season for ${month}/${day} is Summer`)
             } else {
-            console.log(`The season for ${month}/${day} is Fall1.`);
+            console.log(`The season for ${month}/${day} is Fall.`);
             }
     } else if ((month > 9 ) && (month < 12)) {
-			console.log(`The season for ${month}/${day} is Fall2.`);     
+			console.log(`The season for ${month}/${day} is Fall.`);     
     } else if (month === 12){
         if (day <= 20) {
-        console.log(`The season for ${month}/${day} is Fall4`)
+        console.log(`The season for ${month}/${day} is Fall`)
         } else {
-        console.log(`The season for ${month}/${day} is Winter1.`);
+        console.log(`The season for ${month}/${day} is Winter.`);
         }
     } else if ((month >= 1 ) && (month < 2)) {
-        console.log(`The season for ${month}/${day} is Summer1`)
+        console.log(`The season for ${month}/${day} is Summer`)
     }
 }
         
